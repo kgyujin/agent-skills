@@ -1,0 +1,6 @@
+interface:
+  display_name: "문서·발표 디자인"
+  short_description: "편집 가능한 발표 PPTX와 보고서 PDF를 디자인하고 렌더로 검수합니다."
+  default_prompt: "$doc-design을 사용해 자료와 목적에 맞는 발표 자료를 PowerPoint에서 고칠 수 있는 PPTX와 PDF로 만들어 주세요."
+policy:
+  allow_implicit_invocation: true

@@ -1,8 +1,7 @@
 # 스킬 이름	원본 저장소	저장소 안 스킬 경로(. 은 루트)
 aws-style-diagram	kgyujin/aws-style-diagram-skill	.
-clean-ppt	kgyujin/clean-ppt-skill	.
+doc-design	kgyujin/doc-design-skill	.
 eli5	kgyujin/eli5-codex-skill	.
 job-application-tailor	kgyujin/job-application-tailor-skill	.
 parallax	kgyujin/parallax-skill	.
-pdf-design	kgyujin/pdf-design-skill	.
 skill-router	kgyujin/skill-router-skill	skills/skill-router

@@ -1,0 +1,53 @@
+/*
+ * 스타일: clean — 발표 레이아웃과 같은 '무대와 여백' 언어. 면의 농도와 큰 숫자로 위계를 만들고 진한 포인트 면은 한 곳.
+ * 표지: 바탕색 그대로, 포인트색 라벨과 가는 아래 선 / 장 제목: 포인트색 번호 / 표: 먹색 머리선 + 가는 행 선
+ * KPI: 회색 타일, 첫 지표만 포인트색 타일 / 카드: 테두리 없는 옅은 면 / 콜아웃: 옅은 포인트 면
+ * 표지: 오른쪽 포인트색 면 분할
+ * 발표 테마와 같은 이름의 색조(midnight·olive·ocean …)와 함께 쓴다. 색은 토큰만 쓴다.
+ * 변경사항 내역: 2026-10-10 | 최초 작성 (signal·panel·block 대체)
+ */
+html[data-style="clean"] {
+  --font-head: var(--font-sans);
+  --head-weight: 700;
+  --head-tracking: -0.025em;
+  --radius: 4pt;
+}
+html[data-style="clean"] body, html[data-style="clean"] .slide { background: var(--surface); }
+html[data-style="clean"] h1, html[data-style="clean"] h2, html[data-style="clean"] .slide-title { letter-spacing: var(--head-tracking); }
+html[data-style="clean"] h2 { padding-bottom: 0; }
+html[data-style="clean"] h2 .sec-num { color: var(--accent); font-weight: 700; margin-right: var(--sp-2); }
+html[data-style="clean"] th { color: var(--muted); font-weight: 600; background: var(--surface-2); border-bottom: 0; }
+html[data-style="clean"] td { border-bottom: 0.5pt solid var(--line); }
+html[data-style="clean"] tbody tr.hl td, html[data-style="clean"] td.hl { background: var(--accent-soft); color: var(--ink); font-weight: 600; }
+html[data-style="clean"] .kpi { border-top: 0; background: var(--surface-2); border-radius: 6pt; padding: var(--sp-3); }
+/* 진한 면은 한 곳: 첫 지표만 포인트색 타일 */
+html[data-style="clean"] .kpi:first-child { background: var(--accent); --ink: var(--on-accent); --muted: color-mix(in srgb, var(--on-accent) 80%, transparent); color: var(--on-accent); }
+html[data-style="clean"] .kpi:first-child .kpi-delta { color: var(--on-accent); }
+html[data-style="clean"] .kpi-label { font-weight: 500; }
+html[data-style="clean"] .card { border: 0; background: var(--surface-2); }
+html[data-style="clean"] .card.soft { background: var(--accent-soft); }
+html[data-style="clean"] .card.hl { background: var(--surface); border: 0.75pt solid var(--accent); }
+html[data-style="clean"] .callout { background: var(--accent-soft); border-radius: 6pt; }
+html[data-style="clean"] .callout-title { color: var(--accent); }
+html[data-style="clean"] .toc .sec-num { color: var(--accent); }
+html[data-style="clean"] .big-number { color: var(--accent); }
+html[data-style="clean"] .bar > span { background: var(--accent); }
+
+/* 표지: 오른쪽 36%를 포인트색 면으로 나눈다(발표 cover split과 같은 구성) */
+html[data-style="clean"] .cover { background: linear-gradient(90deg, var(--surface) 0 64%, var(--accent) 64% 100%); }
+html[data-style="clean"] .cover > :is(.cover-top, .cover-body, .cover-foot) { width: 56%; }
+html[data-style="clean"] .cover-top { justify-content: flex-start; gap: 8mm; }
+html[data-style="clean"] .cover .eyebrow { color: var(--accent); }
+html[data-style="clean"] .cover-title { letter-spacing: -0.03em; }
+html[data-style="clean"] .cover-foot { border-top: 0.5pt solid var(--line); }
+html[data-style="clean"] .side { background: var(--accent-soft); }
+html[data-style="clean"] .side h3 { color: var(--accent); }
+html[data-style="clean"] .slide.hero { background: linear-gradient(90deg, var(--surface) 0 64%, var(--accent) 64% 100%); }
+html[data-style="clean"] .slide.hero > :not(.slide-foot) { width: 58%; }
+html[data-style="clean"] .slide.section { background: var(--accent-soft); }
+html[data-style="clean"] .slide.hero .eyebrow, html[data-style="clean"] .slide.section .sec-big { color: var(--accent); }
+html[data-style="clean"] .slide-msg { color: var(--muted); font-size: 18pt; font-weight: 400; }
+html[data-style="clean"] .l-table tr.hl td { background: var(--accent-soft); }
+html[data-style="clean"] .l-compare .col.pick > h3 { color: var(--accent); border-bottom-color: var(--accent); }
+html[data-style="clean"] .l-steps .steps > li:last-child { border-top-color: var(--accent); }
+html[data-style="clean"] .verdict { border-top-color: var(--line); }

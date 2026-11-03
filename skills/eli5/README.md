@@ -1,81 +1,75 @@
 <p align="right">
-  <strong>🇺🇸 English</strong> | <a href="README.ko.md">🇰🇷 한국어</a>
+  <strong>English</strong> | <a href="README.ko.md">한국어</a>
 </p>
 
-# eli5 (Codex Skill)
+<div align="center">
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Codex%20CLI-000000.svg)
-![Format](https://img.shields.io/badge/format-SKILL.md-orange.svg)
-![Ported from](https://img.shields.io/badge/ported%20from-Claude%20Code-6b57ff.svg)
+# eli5
 
-> Explain literally anything like you're five years old — big pictures, almost no words.
+[![Claude Code](https://img.shields.io/badge/Claude_Code-skill-D97757)](#install)
+[![Codex](https://img.shields.io/badge/Codex-skill-412991)](#install)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-This is a [Codex CLI](https://developers.openai.com/codex) skill, ported from the original [`eli5` skill](https://github.com/anthropics/claude-plugins-community/tree/main/eli5) built for Claude Code by Thariq Shihipar. It works exactly the same way, just packaged for `~/.codex/skills`.
+An agent skill that explains any topic like you're five.<br>
+Big pictures, almost no words.
 
-## What it does
+</div>
 
-When you ask for an ELI5 explanation, the skill produces a self-contained HTML artifact that leans on big visuals and very few words — the kind of explainer you could hand to a curious kid (or a very tired adult) and have it click immediately.
+Ask something like "how does DNS work?" and you get a single self-contained HTML explainer built from big visuals and very few words. The goal is something you could hand to a curious kid, or a very tired adult, and have it click right away.
+
+This is a port of the [`eli5` skill](https://github.com/anthropics/claude-plugins-community/tree/main/eli5) that Thariq Shihipar wrote for Claude Code. It behaves exactly the same and is packaged so it works in both Claude Code and Codex skill folders.
 
 ## Usage
 
-```
+```text
 /eli5 how does DNS work
 ```
 
-```
+```text
 /eli5 why does the sky turn red at sunset
 ```
 
-Swap in any topic — the more concrete the question, the better the picture-explainer turns out.
+In Codex you can also call it with `$eli5`. The more concrete the question, the better the picture explainer.
 
-## Installation
-
-### Install with npx
-
-Install without cloning, then update or remove it with `npx skills`. Requires Node.js.
+## Install
 
 ```bash
-npx skills add kgyujin/eli5-codex-skill -g -a claude-code -a codex   # install
-npx skills update -g eli5                                            # update
-npx skills remove -g eli5                                            # remove
+npx skills add kgyujin/eli5-codex-skill -g
 ```
 
-`-g` installs into your user folder so every project can use it, and `-a` picks the tools. Leave `-a` out to choose interactively. Don't mix this with the manual install below on the same machine, since both use the same skill folder.
+You'll be asked which tools to install it for (Claude Code, Codex). Requires Node.js. To pick from all of my skills at once, use `npx skills add kgyujin/agent-skills -g`.
 
-### Manual install
+| Task | Command |
+| --- | --- |
+| Update | `npx skills update -g eli5` |
+| Remove | `npx skills remove -g eli5` |
 
-Clone directly into your Codex skills directory:
+<details>
+<summary>Manual install (clone)</summary>
 
-```sh
+```bash
+git clone https://github.com/kgyujin/eli5-codex-skill.git ~/.claude/skills/eli5
 git clone https://github.com/kgyujin/eli5-codex-skill.git ~/.codex/skills/eli5
 ```
 
-Or, if you already have this repo cloned somewhere else, just symlink it in:
+Run only the line for the tool you use. If you already cloned it elsewhere, a symlink works too: `ln -s /path/to/eli5-codex-skill ~/.codex/skills/eli5`. Then start a new session and try `/eli5 <topic>`.
 
-```sh
-ln -s /path/to/eli5-codex-skill ~/.codex/skills/eli5
-```
+</details>
 
-Restart or reload Codex CLI, then try `/eli5 <topic>`.
+> [!NOTE]
+> Use either the npx install or the manual install on one machine, not both. They share the same skill folder.
 
-## How it's structured
+## Layout
 
-```
+```text
 eli5-codex-skill/
-├── SKILL.md      # the skill definition Codex reads (name, description, prompt)
-├── README.md     # you're reading it
-├── README.ko.md  # Korean version of this file
+├── SKILL.md      # skill definition (name, description, prompt), shared by Claude Code and Codex
+├── README.md     # this file
+├── README.ko.md  # Korean version
 └── LICENSE       # MIT
 ```
 
-`SKILL.md` uses the same frontmatter format Codex and Claude Code both understand, so this skill (and most skills like it) is portable between the two tools with little to no change.
-
 ## Credits
 
-- Original skill: [`eli5`](https://github.com/anthropics/claude-plugins-community/tree/main/eli5) in the claude-community marketplace, by Thariq Shihipar (MIT License).
-- This repo is a straight port of that skill's prompt into the Codex CLI skill layout — no behavior changes.
-
-## License
-
-MIT — see [LICENSE](./LICENSE).
+- Original: [`eli5`](https://github.com/anthropics/claude-plugins-community/tree/main/eli5) in the claude-community marketplace by Thariq Shihipar, MIT License.
+- This repo copies the original prompt into the skill folder layout without behavior changes.
