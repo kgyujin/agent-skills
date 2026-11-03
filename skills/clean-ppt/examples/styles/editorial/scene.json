@@ -1,0 +1,806 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "theme": {
+    "background": "FFFFFF",
+    "text": "202C3B",
+    "muted": "536172",
+    "accent": "2459A6",
+    "line": "C7D0DA"
+  },
+  "meta": {
+    "title": "에디토리얼 스타일 예제",
+    "author": "Clean PPT",
+    "subject": "가상 기획 제안"
+  },
+  "slides": [
+    {
+      "title": "사내 문서 검색 제안",
+      "section": "에디토리얼",
+      "frame": false,
+      "notes": "사내 문서 검색 제안. 반복 질문을 관련 안내문과 연결하는 작은 시험 제안 단계이므로 성과 수치로 설명하지 않습니다.",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 720,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 30,
+          "w": 800,
+          "h": 28,
+          "text": "CLEAN PPT   /   에디토리얼",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 80,
+          "w": 1152,
+          "h": 66,
+          "text": "사내 문서 검색 제안",
+          "fontSize": 28,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 162,
+          "w": 1152,
+          "h": 56,
+          "text": "반복 질문을 관련 안내문과 연결하는 작은 시험",
+          "fontSize": 23,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 258,
+          "w": 646,
+          "h": 180,
+          "text": "질문에서\n근거 있는 초안까지",
+          "fontSize": 62,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 477,
+          "w": 590,
+          "h": 88,
+          "text": "문서를 찾고, 출처를 확인한 뒤\n담당자가 답변을 검토합니다.",
+          "fontSize": 27,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "rect",
+          "x": 776,
+          "y": 244,
+          "w": 440,
+          "h": 354,
+          "fill": "F0F4F9",
+          "stroke": "F0F4F9",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 271,
+          "w": 370,
+          "h": 38,
+          "text": "시험 계획",
+          "fontSize": 28,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 336,
+          "w": 370,
+          "h": 54,
+          "text": "30개 문서 · 계획",
+          "fontSize": 32,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 399,
+          "w": 370,
+          "h": 54,
+          "text": "3명 참여 · 계획",
+          "fontSize": 32,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 462,
+          "w": 370,
+          "h": 54,
+          "text": "2주 검토 · 계획",
+          "fontSize": 32,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 540,
+          "w": 370,
+          "h": 32,
+          "text": "공개 안내문부터 시작",
+          "fontSize": 22,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              662
+            ],
+            [
+              1216,
+              662
+            ]
+          ],
+          "stroke": "C7D0DA",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 681,
+          "w": 900,
+          "h": 21,
+          "text": "사내 문서 검색 제안  /  가상 기획 예제 · 실측 결과 아님",
+          "fontSize": 13,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 680,
+          "w": 76,
+          "h": 24,
+          "text": "01 / 03",
+          "fontSize": 15,
+          "bold": false,
+          "color": "536172"
+        }
+      ]
+    },
+    {
+      "title": "문서 탐색 방식의 변화",
+      "section": "에디토리얼",
+      "frame": false,
+      "notes": "문서 탐색 방식의 변화. 확인 기준은 유지하고, 자료를 찾는 순서를 바꿉니다. 제안 단계이므로 성과 수치로 설명하지 않습니다.",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 720,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 30,
+          "w": 800,
+          "h": 28,
+          "text": "CLEAN PPT   /   에디토리얼",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 80,
+          "w": 1152,
+          "h": 66,
+          "text": "문서 탐색 방식의 변화",
+          "fontSize": 44,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 162,
+          "w": 1152,
+          "h": 56,
+          "text": "확인 기준은 유지하고, 자료를 찾는 순서를 바꿉니다.",
+          "fontSize": 23,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 256,
+          "w": 300,
+          "h": 90,
+          "text": "문서 탐색의\n변화",
+          "fontSize": 40,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 381,
+          "w": 290,
+          "h": 116,
+          "text": "제안은 정보 탐색을\n돕는 범위입니다.\n판단은 사람이 합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "rect",
+          "x": 422,
+          "y": 242,
+          "w": 350,
+          "h": 60,
+          "fill": "F1F3F5",
+          "stroke": "F1F3F5",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 446,
+          "y": 256,
+          "w": 305,
+          "h": 38,
+          "text": "현재 방식 · 가정",
+          "fontSize": 26,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "rect",
+          "x": 796,
+          "y": 242,
+          "w": 420,
+          "h": 60,
+          "fill": "2459A6",
+          "stroke": "2459A6",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 820,
+          "y": 256,
+          "w": 370,
+          "h": 38,
+          "text": "제안 방식",
+          "fontSize": 26,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 446,
+          "y": 330,
+          "w": 300,
+          "h": 70,
+          "text": "문서 위치를 직접 확인",
+          "fontSize": 25,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 820,
+          "y": 330,
+          "w": 370,
+          "h": 70,
+          "text": "질문과 관련된 문서 조회",
+          "fontSize": 25,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              422,
+              418
+            ],
+            [
+              1216,
+              418
+            ]
+          ],
+          "stroke": "C7D0DA",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 446,
+          "y": 442,
+          "w": 300,
+          "h": 70,
+          "text": "답변과 문서를 따로 확인",
+          "fontSize": 25,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 820,
+          "y": 442,
+          "w": 370,
+          "h": 70,
+          "text": "초안에 출처 함께 표시",
+          "fontSize": 25,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              422,
+              530
+            ],
+            [
+              1216,
+              530
+            ]
+          ],
+          "stroke": "C7D0DA",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 446,
+          "y": 554,
+          "w": 300,
+          "h": 70,
+          "text": "담당자가 답변 판단",
+          "fontSize": 25,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 820,
+          "y": 554,
+          "w": 370,
+          "h": 70,
+          "text": "담당자의 최종 검토 유지",
+          "fontSize": 25,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              422,
+              642
+            ],
+            [
+              1216,
+              642
+            ]
+          ],
+          "stroke": "C7D0DA",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              662
+            ],
+            [
+              1216,
+              662
+            ]
+          ],
+          "stroke": "C7D0DA",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 681,
+          "w": 900,
+          "h": 21,
+          "text": "사내 문서 검색 제안  /  가상 기획 예제 · 실측 결과 아님",
+          "fontSize": 13,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 680,
+          "w": 76,
+          "h": 24,
+          "text": "02 / 03",
+          "fontSize": 15,
+          "bold": false,
+          "color": "536172"
+        }
+      ]
+    },
+    {
+      "title": "질문부터 최종 확인까지",
+      "section": "에디토리얼",
+      "frame": false,
+      "notes": "질문부터 최종 확인까지. 기계가 찾고 작성한 내용은 담당자가 확인합니다. 제안 단계이므로 성과 수치로 설명하지 않습니다.",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 720,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 30,
+          "w": 800,
+          "h": 28,
+          "text": "CLEAN PPT   /   에디토리얼",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 80,
+          "w": 1152,
+          "h": 66,
+          "text": "질문부터 최종 확인까지",
+          "fontSize": 44,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 162,
+          "w": 1152,
+          "h": 56,
+          "text": "기계가 찾고 작성한 내용은 담당자가 확인합니다.",
+          "fontSize": 23,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 257,
+          "w": 245,
+          "h": 56,
+          "text": "01",
+          "fontSize": 40,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              326
+            ],
+            [
+              309,
+              326
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 357,
+          "w": 245,
+          "h": 42,
+          "text": "질문 입력",
+          "fontSize": 30,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 420,
+          "w": 245,
+          "h": 95,
+          "text": "필요한 내용을\n자연어로 전달",
+          "fontSize": 25,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 366,
+          "y": 257,
+          "w": 245,
+          "h": 56,
+          "text": "02",
+          "fontSize": 40,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              366,
+              326
+            ],
+            [
+              611,
+              326
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 366,
+          "y": 357,
+          "w": 245,
+          "h": 42,
+          "text": "문서 조회",
+          "fontSize": 30,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 366,
+          "y": 420,
+          "w": 245,
+          "h": 95,
+          "text": "관련된 공개\n안내문 검색",
+          "fontSize": 25,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 668,
+          "y": 257,
+          "w": 245,
+          "h": 56,
+          "text": "03",
+          "fontSize": 40,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              668,
+              326
+            ],
+            [
+              913,
+              326
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 668,
+          "y": 357,
+          "w": 245,
+          "h": 42,
+          "text": "초안 작성",
+          "fontSize": 30,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 668,
+          "y": 420,
+          "w": 245,
+          "h": 95,
+          "text": "출처를 함께\n제시하는 답변",
+          "fontSize": 25,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 970,
+          "y": 257,
+          "w": 245,
+          "h": 56,
+          "text": "04",
+          "fontSize": 40,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              970,
+              326
+            ],
+            [
+              1215,
+              326
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 970,
+          "y": 357,
+          "w": 245,
+          "h": 42,
+          "text": "사람 검토",
+          "fontSize": 30,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 970,
+          "y": 420,
+          "w": 245,
+          "h": 95,
+          "text": "내용과 근거를\n최종 확인",
+          "fontSize": 25,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              315,
+              282
+            ],
+            [
+              348,
+              282
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              617,
+              282
+            ],
+            [
+              650,
+              282
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              919,
+              282
+            ],
+            [
+              952,
+              282
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "rect",
+          "x": 64,
+          "y": 565,
+          "w": 1152,
+          "h": 62,
+          "fill": "F0F4F9",
+          "stroke": "F0F4F9",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 88,
+          "y": 580,
+          "w": 1104,
+          "h": 40,
+          "text": "초기 제외 범위  |  권한 문서와 자동 의사결정",
+          "fontSize": 24,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              662
+            ],
+            [
+              1216,
+              662
+            ]
+          ],
+          "stroke": "C7D0DA",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 681,
+          "w": 900,
+          "h": 21,
+          "text": "사내 문서 검색 제안  /  가상 기획 예제 · 실측 결과 아님",
+          "fontSize": 13,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 680,
+          "w": 76,
+          "h": 24,
+          "text": "03 / 03",
+          "fontSize": 15,
+          "bold": false,
+          "color": "536172"
+        }
+      ]
+    }
+  ]
+}

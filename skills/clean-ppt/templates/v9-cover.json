@@ -1,0 +1,221 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "meta": {
+    "title": "Clean PPT 레이아웃 12종",
+    "author": "Clean PPT",
+    "subject": "가상 자료 기반 편집용 템플릿"
+  },
+  "slides": [
+    {
+      "title": "업무 개선 발표",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "현장의 문제부터 적용 범위까지",
+      "elements": [
+        {
+          "type": "text",
+          "x": 56,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "text": "업무 개선 발표",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "현장의 문제부터 적용 범위까지",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 210,
+          "w": 700,
+          "h": 150,
+          "text": "반품 검수\n기록 자동화",
+          "fontSize": 60,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 393,
+          "w": 650,
+          "h": 92,
+          "text": "종이에 적고 다시 옮기던 기록을\n검수 현장에서 마치는 개선안입니다.",
+          "fontSize": 26,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 577,
+          "w": 630,
+          "h": 40,
+          "text": "업무 개선 제안  /  발표 구성 예시",
+          "fontSize": 20,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "rect",
+          "x": 824,
+          "y": 205,
+          "w": 400,
+          "h": 404,
+          "fill": "F3F6FA",
+          "stroke": "F3F6FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 850,
+          "y": 237,
+          "w": 44,
+          "h": 36,
+          "text": "01",
+          "fontSize": 22,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 237,
+          "w": 288,
+          "h": 40,
+          "text": "기록 방식",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 282,
+          "w": 280,
+          "h": 45,
+          "text": "기존과 개선 비교",
+          "fontSize": 19,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "text",
+          "x": 850,
+          "y": 356,
+          "w": 44,
+          "h": 36,
+          "text": "02",
+          "fontSize": 22,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 356,
+          "w": 288,
+          "h": 40,
+          "text": "업무 흐름",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 401,
+          "w": 280,
+          "h": 45,
+          "text": "입력부터 최종 검수까지",
+          "fontSize": 19,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "text",
+          "x": 850,
+          "y": 475,
+          "w": 44,
+          "h": 36,
+          "text": "03",
+          "fontSize": 22,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 475,
+          "w": 288,
+          "h": 40,
+          "text": "적용 판단",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 520,
+          "w": 280,
+          "h": 45,
+          "text": "연습 수치와 다음 시험",
+          "fontSize": 19,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
+          "bold": false,
+          "color": "526174"
+        }
+      ]
+    }
+  ]
+}

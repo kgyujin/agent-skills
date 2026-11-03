@@ -1,0 +1,262 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "meta": {
+    "title": "Clean PPT 레이아웃 12종",
+    "author": "Clean PPT",
+    "subject": "가상 자료 기반 편집용 템플릿"
+  },
+  "slides": [
+    {
+      "title": "확인할 항목",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "도입 전, 정확성과 사용 부담을 같은 기준으로 살펴봅니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 56,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "text": "확인할 항목",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "도입 전, 정확성과 사용 부담을 같은 기준으로 살펴봅니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 228,
+          "w": 1168,
+          "h": 76,
+          "fill": "F1F6F3",
+          "stroke": "F1F6F3",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 78,
+          "y": 248,
+          "w": 220,
+          "h": 40,
+          "text": "정확성",
+          "fontSize": 25,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 320,
+          "y": 248,
+          "w": 650,
+          "h": 40,
+          "text": "질문에 맞는 문서를 찾았는가",
+          "fontSize": 24,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 1030,
+          "y": 249,
+          "w": 170,
+          "h": 36,
+          "text": "미측정",
+          "fontSize": 22,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 316,
+          "w": 1168,
+          "h": 76,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 78,
+          "y": 336,
+          "w": 220,
+          "h": 40,
+          "text": "출처",
+          "fontSize": 25,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 320,
+          "y": 336,
+          "w": 650,
+          "h": 40,
+          "text": "답변의 근거를 확인할 수 있는가",
+          "fontSize": 24,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 1030,
+          "y": 337,
+          "w": 170,
+          "h": 36,
+          "text": "미측정",
+          "fontSize": 22,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 404,
+          "w": 1168,
+          "h": 76,
+          "fill": "F1F6F3",
+          "stroke": "F1F6F3",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 78,
+          "y": 424,
+          "w": 220,
+          "h": 40,
+          "text": "응답시간",
+          "fontSize": 25,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 320,
+          "y": 424,
+          "w": 650,
+          "h": 40,
+          "text": "직원이 기다릴 수 있는 수준인가",
+          "fontSize": 24,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 1030,
+          "y": 425,
+          "w": 170,
+          "h": 36,
+          "text": "미측정",
+          "fontSize": 22,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 492,
+          "w": 1168,
+          "h": 76,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 78,
+          "y": 512,
+          "w": 220,
+          "h": 40,
+          "text": "비용",
+          "fontSize": 25,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 320,
+          "y": 512,
+          "w": 650,
+          "h": 40,
+          "text": "운영에 필요한 비용은 얼마인가",
+          "fontSize": 24,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 1030,
+          "y": 513,
+          "w": 170,
+          "h": 36,
+          "text": "미측정",
+          "fontSize": 22,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 606,
+          "w": 1168,
+          "h": 34,
+          "text": "제안 단계입니다. 예산과 성능 수치는 아직 확인하지 않았습니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
+          "bold": false,
+          "color": "526174"
+        }
+      ]
+    }
+  ]
+}

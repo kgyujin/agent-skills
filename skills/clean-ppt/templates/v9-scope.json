@@ -1,0 +1,255 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "meta": {
+    "title": "Clean PPT 레이아웃 12종",
+    "author": "Clean PPT",
+    "subject": "가상 자료 기반 편집용 템플릿"
+  },
+  "slides": [
+    {
+      "title": "적용 범위와 한계",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "자동화할 기록과 사람이 판단할 업무를 구분합니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 56,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "text": "적용 범위와 한계",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "자동화할 기록과 사람이 판단할 업무를 구분합니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 232,
+          "w": 300,
+          "h": 364,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 82,
+          "y": 261,
+          "w": 250,
+          "h": 40,
+          "text": "적용 원칙",
+          "fontSize": 27,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 82,
+          "y": 325,
+          "w": 248,
+          "h": 160,
+          "text": "기록은 현장에서\n판단은 담당자가",
+          "fontSize": 32,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 398,
+          "y": 239,
+          "w": 190,
+          "h": 40,
+          "text": "기록",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 239,
+          "w": 580,
+          "h": 45,
+          "text": "태블릿으로 입력",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 288,
+          "w": 580,
+          "h": 50,
+          "text": "제품 코드, 상태와 사진을 함께 저장합니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              398,
+              340
+            ],
+            [
+              1224,
+              340
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 398,
+          "y": 361,
+          "w": 190,
+          "h": 40,
+          "text": "책임",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 361,
+          "w": 580,
+          "h": 45,
+          "text": "최종 검수는 사람이 수행",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 410,
+          "w": 580,
+          "h": 50,
+          "text": "자동 환불 기능은 포함하지 않습니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              398,
+              462
+            ],
+            [
+              1224,
+              462
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 398,
+          "y": 483,
+          "w": 190,
+          "h": 40,
+          "text": "해석",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 483,
+          "w": 580,
+          "h": 45,
+          "text": "연습 결과의 적용 범위",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 532,
+          "w": 580,
+          "h": 50,
+          "text": "작은 표본의 수치를 전체 성과로 일반화하지 않습니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              398,
+              584
+            ],
+            [
+              1224,
+              584
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
+          "bold": false,
+          "color": "526174"
+        }
+      ]
+    }
+  ]
+}

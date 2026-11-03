@@ -1,0 +1,337 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "meta": {
+    "title": "Clean PPT 레이아웃 12종",
+    "author": "Clean PPT",
+    "subject": "가상 자료 기반 편집용 템플릿"
+  },
+  "slides": [
+    {
+      "title": "현장 업무 흐름",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "태블릿 입력은 기록을 돕고, 최종 판단은 담당자가 맡습니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 56,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "text": "현장 업무 흐름",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "태블릿 입력은 기록을 돕고, 최종 판단은 담당자가 맡습니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "rect",
+          "x": 56.0,
+          "y": 242,
+          "w": 262.0,
+          "h": 62,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 76.0,
+          "y": 256,
+          "w": 222.0,
+          "h": 40,
+          "text": "01  제품 확인",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56.0,
+          "y": 337,
+          "w": 262.0,
+          "h": 150,
+          "text": "제품 코드를\n먼저 확인합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56.0,
+              507
+            ],
+            [
+              318.0,
+              507
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              324.0,
+              273
+            ],
+            [
+              351.0,
+              273
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "rect",
+          "x": 358.0,
+          "y": 242,
+          "w": 262.0,
+          "h": 62,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 378.0,
+          "y": 256,
+          "w": 222.0,
+          "h": 40,
+          "text": "02  상태 입력",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 358.0,
+          "y": 337,
+          "w": 262.0,
+          "h": 150,
+          "text": "검수 상태를\n선택합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              358.0,
+              507
+            ],
+            [
+              620.0,
+              507
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              626.0,
+              273
+            ],
+            [
+              653.0,
+              273
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "rect",
+          "x": 660.0,
+          "y": 242,
+          "w": 262.0,
+          "h": 62,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 680.0,
+          "y": 256,
+          "w": 222.0,
+          "h": 40,
+          "text": "03  사진 첨부",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 660.0,
+          "y": 337,
+          "w": 262.0,
+          "h": 150,
+          "text": "제품 상태를\n사진으로 남깁니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              660.0,
+              507
+            ],
+            [
+              922.0,
+              507
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              928.0,
+              273
+            ],
+            [
+              955.0,
+              273
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "rect",
+          "x": 962.0,
+          "y": 242,
+          "w": 262.0,
+          "h": 62,
+          "fill": "2459A6",
+          "stroke": "2459A6",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 982.0,
+          "y": 256,
+          "w": 222.0,
+          "h": 40,
+          "text": "04  기록 저장",
+          "fontSize": 25,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 962.0,
+          "y": 337,
+          "w": 262.0,
+          "h": 150,
+          "text": "입력 내용을\n저장합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              962.0,
+              507
+            ],
+            [
+              1224.0,
+              507
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 553,
+          "w": 190,
+          "h": 36,
+          "text": "확인할 경계",
+          "fontSize": 21,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 260,
+          "y": 548,
+          "w": 960,
+          "h": 75,
+          "text": "담당자가 최종 검수합니다. 환불은 자동으로 처리하지 않습니다.",
+          "fontSize": 24,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
+          "bold": false,
+          "color": "526174"
+        }
+      ]
+    }
+  ]
+}

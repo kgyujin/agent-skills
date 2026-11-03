@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en" data-style="academic" data-palette="graphite" data-font="auto" data-density="normal" data-radius="auto">
+<head>
+<meta charset="utf-8">
+<title>Cache-aside cut read latency (sample)</title>
+<link rel="stylesheet" href="pdf-design.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '\\(', right: '\\)', display: false}], throwOnError: false})"></script>
+<style>
+  @page { size: 338.67mm 190.5mm; margin: 0; }
+</style>
+</head>
+<body class="deck">
+
+<section class="slide hero">
+  <div class="eyebrow">Platform Ops Review · Sample data</div>
+  <div class="slide-title">Cache-aside architecture<br>and API operations</div>
+  <p>A review of the read path and operational metrics</p>
+  <div class="meta">Platform Ops Team · 2026-09</div>
+  <footer class="slide-foot"><span class="page"></span></footer>
+
+</section>
+
+<section class="slide">
+  <header class="slide-head">
+    <div class="slide-title">Reads, not writes, were saturating the database</div>
+    <p class="slide-msg">Peak DB CPU hit 85% while most queries repeated the same keys.</p>
+  </header>
+  <div class="slide-body l-points">
+    <ol class="points">
+      <li><strong>Read-heavy traffic</strong>Most API calls were product and profile lookups.</li>
+      <li><strong>Repeated keys</strong>The same records were fetched again within minutes.</li>
+      <li><strong>Latency followed DB load</strong>p95 rose whenever DB CPU peaked.</li>
+    </ol>
+  </div>
+  <footer class="slide-foot"><span class="page"></span></footer>
+
+</section>
+
+<section class="slide">
+  <header class="slide-head">
+    <div class="slide-title">p95 dropped below the target within one week of rollout</div>
+  </header>
+  <div class="slide-body l-figure">
+    <figure class="fig">
+      <div class="fig-frame">
+        <svg class="chart" viewBox="0 0 480 250" role="img" aria-label="Weekly p95 latency">
+          <g class="grid"><line x1="44" y1="20" x2="470" y2="20"/><line x1="44" y1="70" x2="470" y2="70"/><line x1="44" y1="120" x2="470" y2="120"/><line x1="44" y1="170" x2="470" y2="170"/></g>
+          <text x="38" y="24" text-anchor="end">250</text><text x="38" y="74" text-anchor="end">200</text>
+          <text x="38" y="124" text-anchor="end">150</text><text x="38" y="174" text-anchor="end">100</text>
+          <line class="target" x1="44" y1="110" x2="470" y2="110"/>
+          <text x="50" y="104" style="fill:var(--good)">target 160 ms</text>
+          <line class="marker" x1="244" y1="14" x2="244" y2="190"/>
+          <text x="248" y="30">cache rollout</text>
+          <polyline class="series" points="64,49 114,45 164,53 214,41 264,104 314,127 364,133 414,139 464,142"/>
+          <g class="dot"><circle cx="64" cy="49" r="3.5"/><circle cx="214" cy="41" r="3.5"/><circle cx="464" cy="142" r="4.5"/></g>
+          <g text-anchor="middle"><text x="64" y="208">Jul W1</text><text x="164" y="208">Jul W3</text><text x="264" y="208">Aug W2</text><text x="364" y="208">Aug W4</text><text x="464" y="208">Sep W1</text></g>
+          <text x="9" y="95" text-anchor="middle" transform="rotate(-90 9 95)">p95 (ms)</text>
+          <text x="257" y="236" text-anchor="middle">week</text>
+        </svg>
+        <span class="pin" style="left: 45%; top: 12%">1</span>
+        <span class="pin" style="left: 96%; top: 64%">2</span>
+      </div>
+      <figcaption>Weekly API p95 latency (ms), all endpoints. Dashed green line: team target. (sample data)</figcaption>
+    </figure>
+    <ol class="callouts">
+      <li><strong>Before: about 220 ms</strong>Flat and above target for four weeks.</li>
+      <li><strong>After: 128 ms</strong>Stable below the 160 ms target.</li>
+    </ol>
+  </div>
+  <footer class="slide-foot"><span class="page"></span></footer>
+
+</section>
+
+<section class="slide">
+  <header class="slide-head">
+    <div class="slide-title">Expected latency depends on the hit ratio, not on cache speed alone</div>
+  </header>
+  <div class="slide-body l-equation">
+    <div class="equation">$$ \mathbb{E}[T] = h\,t_c + (1-h)\,(t_c + t_{db}) = t_c + (1-h)\,t_{db} $$</div>
+    <dl class="symbols">
+      <div><dt>\(h\)</dt><dd>Cache hit ratio (0–1)</dd></div>
+      <div><dt>\(t_c\)</dt><dd>Cache lookup time</dd></div>
+      <div><dt>\(t_{db}\)</dt><dd>DB read time on a miss</dd></div>
+    </dl>
+  </div>
+  <footer class="slide-foot"><span class="page"></span></footer>
+
+</section>
+
+<section class="slide">
+  <header class="slide-head">
+    <div class="slide-title">The read path checks the cache first and fills it on a miss</div>
+  </header>
+  <div class="slide-body l-steps">
+    <ol class="steps">
+      <li><strong>Request key</strong>API receives a read for key k</li>
+      <li><strong>Look up cache</strong>GET k from Redis</li>
+      <li><strong>Hit or miss</strong><span class="cond">if value ≠ null</span> return it immediately</li>
+      <li><strong>On a miss</strong>Read DB, SET k with TTL, return</li>
+    </ol>
+  </div>
+  <footer class="slide-foot"><span class="page"></span></footer>
+
+</section>
+
+<section class="slide">
+  <header class="slide-head">
+    <div class="slide-title">Hit ratio rose to 88% and DB CPU halved</div>
+  </header>
+  <div class="slide-body l-table">
+    <table>
+      <caption>Monthly averages, same traffic window (peak hours). Lower is better except hit ratio. (sample data)</caption>
+      <thead><tr><th>Metric</th><th class="num">July (before)</th><th class="num">August (after)</th><th class="num">Change</th></tr></thead>
+      <tbody>
+        <tr class="hl"><td>API p95 latency (ms)</td><td class="num">221</td><td class="num">128</td><td class="num">−42%</td></tr>
+        <tr><td>Cache hit ratio</td><td class="num">—</td><td class="num">88%</td><td class="num">—</td></tr>
+        <tr class="hl"><td>Peak DB CPU</td><td class="num">85%</td><td class="num">41%</td><td class="num">−44 %p</td></tr>
+        <tr><td>Incidents (S1–S2)</td><td class="num">4</td><td class="num">1</td><td class="num">−3</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <footer class="slide-foot"><span class="page"></span></footer>
+
+</section>
+
+<section class="slide">
+  <header class="slide-head">
+    <div class="slide-title">Cache-aside fit a read-heavy API better than write-through</div>
+  </header>
+  <div class="slide-body l-compare">
+    <div class="col pick"><h3>Cache-aside (chosen)</h3><ul><li>Caches only keys that are actually read</li><li>DB stays the source of truth</li><li>First read of a key is a miss</li></ul></div>
+    <div class="col"><h3>Write-through</h3><ul><li>Every write also updates the cache</li><li>Fresh data on first read</li><li>Caches keys that may never be read</li></ul></div>
+    <div class="verdict">For read-heavy traffic with repeated keys, caching on demand used less memory for the same hit ratio.</div>
+  </div>
+  <footer class="slide-foot"><span class="page"></span></footer>
+
+</section>
+
+<section class="slide section">
+  <div class="sec-big">2</div>
+  <div class="slide-title">Where the gain stops</div>
+  <p>Conditions and limits of the result</p>
+  <footer class="slide-foot"><span class="page"></span></footer>
+
+</section>
+
+<section class="slide">
+  <header class="slide-head">
+    <div class="slide-title">The result holds only while keys repeat and data can be slightly stale</div>
+  </header>
+  <div class="slide-body l-split">
+    <div class="text">
+      <ul>
+        <li>Batch jobs read unique keys, so they barely hit the cache.</li>
+        <li>Price changes can be stale until the TTL expires.</li>
+        <li>A cold cache after restart temporarily brings back DB load.</li>
+      </ul>
+    </div>
+    <div class="interp"><p>By the model on slide 4, if the hit ratio fell back toward 70%, the mean latency gain would shrink by roughly half. This is our projection, not a measured result.</p></div>
+  </div>
+  <footer class="slide-foot"><span class="page"></span></footer>
+
+</section>
+
+<section class="slide appendix">
+  <header class="slide-head">
+    <div class="slide-title">Plugging in sample values shows why the hit ratio dominates</div>
+  </header>
+  <div class="slide-body l-equation">
+    <div class="equation">$$ \mathbb{E}[T] = t_c + (1-h)\,t_{db}, \quad t_c = 2\,\text{ms},\; t_{db} = 40\,\text{ms} $$</div>
+    <ol class="derive">
+      <li>\(h = 0.88\): \(2 + 0.12 \times 40 = 6.8\) ms<span class="why">August hit ratio (sample)</span></li>
+      <li>\(h = 0.71\): \(2 + 0.29 \times 40 = 13.6\) ms<span class="why">First week after rollout (sample)</span></li>
+      <li>\(h = 0\): \(2 + 40 = 42\) ms<span class="why">No hits: slightly slower than no cache (40 ms)</span></li>
+    </ol>
+  </div>
+  <footer class="slide-foot"><span class="page"></span></footer>
+
+</section>
+
+</body>
+</html>

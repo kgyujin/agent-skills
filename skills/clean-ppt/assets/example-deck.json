@@ -1,0 +1,19 @@
+{
+  "width":1280,"height":720,"font":"Pretendard",
+  "meta":{"title":"장면 제작기 확인","author":"Git history"},
+  "slides":[
+    {"title":"편집 가능한 기본 도식","section":"도구 예시","notes":"오른쪽으로 진행하고 아래 경로로 되돌아오는 선을 확인합니다.","elements":[
+      {"type":"rect","x":80,"y":240,"w":300,"h":120,"fill":"EEF3F9"},
+      {"type":"text","text":"입력 자료","x":110,"y":278,"w":240,"h":50,"fontSize":30,"bold":true},
+      {"type":"ellipse","x":800,"y":240,"w":300,"h":120,"fill":"EEF3F9"},
+      {"type":"text","text":"검증 결과","x":850,"y":278,"w":200,"h":50,"fontSize":30},
+      {"type":"line","points":[[400,300],[770,300]],"endArrow":true},
+      {"type":"line","points":[[950,390],[950,480],[230,480],[230,390]],"endArrow":true},
+      {"type":"text","text":"검토 후 수정","x":490,"y":500,"w":300,"h":50,"fontSize":26}
+    ]},
+    {"title":"네이티브 표와 차트","section":"구조 검증","notes":"수치는 기능 확인용 예시이며 실제 성과가 아닙니다.","elements":[
+      {"type":"table","x":56,"y":230,"w":500,"h":220,"fontSize":24,"rows":[["항목","예시 값"],["A","12"],["B","20"]]},
+      {"type":"barChart","x":640,"y":220,"w":560,"h":350,"series":[{"name":"예시","labels":["A","B"],"values":[12,20]}]}
+    ]}
+  ]
+}

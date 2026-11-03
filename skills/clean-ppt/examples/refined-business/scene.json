@@ -1,0 +1,1001 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "theme": {
+    "background": "FFFFFF",
+    "text": "182B43",
+    "muted": "586879",
+    "accent": "285DA0",
+    "line": "D6DFE9"
+  },
+  "meta": {
+    "title": "본문 중심 비즈니스 시안",
+    "author": "Clean PPT"
+  },
+  "slides": [
+    {
+      "title": "문서 검색 방식의 변화",
+      "frame": false,
+      "notes": "입력, 확인 과정, 불확실성 순서로 비교합니다. 예제의 기능은 실제 서비스 구현을 주장하지 않습니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 64,
+          "y": 34,
+          "w": 900,
+          "h": 26,
+          "text": "SERVICE DESIGN  /  구성 예시",
+          "fontSize": 16,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 92,
+          "w": 1152,
+          "h": 60,
+          "text": "문서 검색 방식의 변화",
+          "fontSize": 42,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 160,
+          "w": 1152,
+          "h": 36,
+          "text": "비교 기준은 왼쪽에 고정하고, 달라진 동작만 오른쪽에서 확인합니다.",
+          "fontSize": 22,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              214
+            ],
+            [
+              1216,
+              214
+            ]
+          ],
+          "stroke": "D6DFE9",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 672,
+          "w": 1000,
+          "h": 24,
+          "text": "가상 서비스의 디자인 예시입니다. 실제 구현·평가 결과가 아닙니다.",
+          "fontSize": 15,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "x": 1168,
+          "y": 672,
+          "w": 48,
+          "h": 24,
+          "text": "01",
+          "fontSize": 16,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "rect",
+          "x": 800,
+          "y": 244,
+          "w": 416,
+          "h": 388,
+          "fill": "EEF3F8",
+          "stroke": "EEF3F8",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 256,
+          "w": 220,
+          "h": 32,
+          "text": "비교 기준",
+          "fontSize": 20,
+          "color": "586879",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 344,
+          "y": 252,
+          "w": 400,
+          "h": 40,
+          "text": "기존 검색",
+          "fontSize": 28,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "rect",
+          "x": 800,
+          "y": 244,
+          "w": 416,
+          "h": 64,
+          "fill": "285DA0",
+          "stroke": "285DA0",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 824,
+          "y": 256,
+          "w": 360,
+          "h": 40,
+          "text": "개선 방향",
+          "fontSize": 28,
+          "color": "FFFFFF",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 337,
+          "w": 240,
+          "h": 40,
+          "text": "검색 입력",
+          "fontSize": 25,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 344,
+          "y": 332,
+          "w": 420,
+          "h": 37,
+          "text": "정해진 단어",
+          "fontSize": 27,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 344,
+          "y": 372,
+          "w": 420,
+          "h": 32,
+          "text": "같은 단어가 있는 문서를 찾습니다.",
+          "fontSize": 20,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "x": 824,
+          "y": 332,
+          "w": 368,
+          "h": 37,
+          "text": "질문의 의미",
+          "fontSize": 27,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 824,
+          "y": 372,
+          "w": 368,
+          "h": 32,
+          "text": "다른 표현도 검색에 활용합니다.",
+          "fontSize": 20,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              416
+            ],
+            [
+              1216,
+              416
+            ]
+          ],
+          "stroke": "D6DFE9",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 437,
+          "w": 240,
+          "h": 40,
+          "text": "확인 과정",
+          "fontSize": 25,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 344,
+          "y": 432,
+          "w": 420,
+          "h": 37,
+          "text": "문서를 직접 확인",
+          "fontSize": 27,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 344,
+          "y": 472,
+          "w": 420,
+          "h": 32,
+          "text": "필요한 내용을 사용자가 찾습니다.",
+          "fontSize": 20,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "x": 824,
+          "y": 432,
+          "w": 368,
+          "h": 37,
+          "text": "관련 구절 함께 확인",
+          "fontSize": 27,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 824,
+          "y": 472,
+          "w": 368,
+          "h": 32,
+          "text": "답변과 원문을 나란히 봅니다.",
+          "fontSize": 20,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              516
+            ],
+            [
+              1216,
+              516
+            ]
+          ],
+          "stroke": "D6DFE9",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 537,
+          "w": 240,
+          "h": 40,
+          "text": "불확실한 답변",
+          "fontSize": 25,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 344,
+          "y": 532,
+          "w": 420,
+          "h": 37,
+          "text": "다른 검색어로 재시도",
+          "fontSize": 27,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 344,
+          "y": 572,
+          "w": 420,
+          "h": 32,
+          "text": "검색 결과를 다시 좁혀 갑니다.",
+          "fontSize": 20,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "x": 824,
+          "y": 532,
+          "w": 368,
+          "h": 37,
+          "text": "추가 질문으로 보완",
+          "fontSize": 27,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 824,
+          "y": 572,
+          "w": 368,
+          "h": 32,
+          "text": "부족한 조건부터 확인합니다.",
+          "fontSize": 20,
+          "color": "586879",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "title": "질문에서 근거 확인까지",
+      "frame": false,
+      "notes": "왼쪽에서 오른쪽으로 진행한 뒤 하단 분기를 설명합니다. 실제 그래프에 없는 경로를 추가하지 말고 이 구성만 적용하세요.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 64,
+          "y": 34,
+          "w": 900,
+          "h": 26,
+          "text": "SERVICE DESIGN  /  구성 예시",
+          "fontSize": 16,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 92,
+          "w": 1152,
+          "h": 60,
+          "text": "질문에서 근거 확인까지",
+          "fontSize": 42,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 160,
+          "w": 1152,
+          "h": 36,
+          "text": "전체 순서를 먼저 읽고, 답변 검수에서 나뉘는 두 경로를 확인합니다.",
+          "fontSize": 22,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              214
+            ],
+            [
+              1216,
+              214
+            ]
+          ],
+          "stroke": "D6DFE9",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 672,
+          "w": 1000,
+          "h": 24,
+          "text": "가상 서비스의 디자인 예시입니다. 실제 구현·평가 결과가 아닙니다.",
+          "fontSize": 15,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "x": 1168,
+          "y": 672,
+          "w": 48,
+          "h": 24,
+          "text": "02",
+          "fontSize": 16,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 260,
+          "w": 256,
+          "h": 36,
+          "text": "01",
+          "fontSize": 24,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "rect",
+          "x": 64,
+          "y": 312,
+          "w": 256,
+          "h": 90,
+          "fill": "EEF3F8",
+          "stroke": "EEF3F8",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 84,
+          "y": 334,
+          "w": 216,
+          "h": 44,
+          "text": "질문 입력",
+          "fontSize": 29,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 422,
+          "w": 270,
+          "h": 38,
+          "text": "대상과 조건 확인",
+          "fontSize": 22,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              328,
+              357
+            ],
+            [
+              350,
+              357
+            ]
+          ],
+          "stroke": "285DA0",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "text",
+          "x": 360,
+          "y": 260,
+          "w": 256,
+          "h": 36,
+          "text": "02",
+          "fontSize": 24,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "rect",
+          "x": 360,
+          "y": 312,
+          "w": 256,
+          "h": 90,
+          "fill": "EEF3F8",
+          "stroke": "EEF3F8",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 380,
+          "y": 334,
+          "w": 216,
+          "h": 44,
+          "text": "문서 검색",
+          "fontSize": 29,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 360,
+          "y": 422,
+          "w": 270,
+          "h": 38,
+          "text": "관련 구절 조회",
+          "fontSize": 22,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              624,
+              357
+            ],
+            [
+              646,
+              357
+            ]
+          ],
+          "stroke": "285DA0",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "text",
+          "x": 656,
+          "y": 260,
+          "w": 256,
+          "h": 36,
+          "text": "03",
+          "fontSize": 24,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "rect",
+          "x": 656,
+          "y": 312,
+          "w": 256,
+          "h": 90,
+          "fill": "EEF3F8",
+          "stroke": "EEF3F8",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 676,
+          "y": 334,
+          "w": 216,
+          "h": 44,
+          "text": "답변 작성",
+          "fontSize": 29,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 656,
+          "y": 422,
+          "w": 270,
+          "h": 38,
+          "text": "근거로 초안 작성",
+          "fontSize": 22,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              920,
+              357
+            ],
+            [
+              942,
+              357
+            ]
+          ],
+          "stroke": "285DA0",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "text",
+          "x": 952,
+          "y": 260,
+          "w": 256,
+          "h": 36,
+          "text": "04",
+          "fontSize": 24,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "rect",
+          "x": 952,
+          "y": 312,
+          "w": 256,
+          "h": 90,
+          "fill": "285DA0",
+          "stroke": "285DA0",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 972,
+          "y": 334,
+          "w": 216,
+          "h": 44,
+          "text": "답변 검수",
+          "fontSize": 29,
+          "color": "FFFFFF",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 952,
+          "y": 422,
+          "w": 270,
+          "h": 38,
+          "text": "출처와 조건 확인",
+          "fontSize": 22,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              1080,
+              468
+            ],
+            [
+              1080,
+              494
+            ]
+          ],
+          "stroke": "285DA0",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              366,
+              494
+            ],
+            [
+              1080,
+              494
+            ]
+          ],
+          "stroke": "285DA0",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              366,
+              494
+            ],
+            [
+              366,
+              525
+            ]
+          ],
+          "stroke": "285DA0",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              1080,
+              494
+            ],
+            [
+              1080,
+              525
+            ]
+          ],
+          "stroke": "285DA0",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "rect",
+          "x": 64,
+          "y": 540,
+          "w": 668,
+          "h": 92,
+          "fill": "EEF3F8",
+          "stroke": "EEF3F8",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 88,
+          "y": 556,
+          "w": 170,
+          "h": 36,
+          "text": "근거 부족",
+          "fontSize": 24,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 268,
+          "y": 556,
+          "w": 440,
+          "h": 56,
+          "text": "추가 조건을 질문한 뒤 다시 확인",
+          "fontSize": 22,
+          "color": "182B43",
+          "bold": false
+        },
+        {
+          "type": "rect",
+          "x": 780,
+          "y": 540,
+          "w": 436,
+          "h": 92,
+          "fill": "285DA0",
+          "stroke": "285DA0",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 804,
+          "y": 556,
+          "w": 388,
+          "h": 56,
+          "text": "검수 통과 → 답변과 출처 제공",
+          "fontSize": 23,
+          "color": "FFFFFF",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "title": "답변과 출처의 연결",
+      "frame": false,
+      "notes": "직접 만든 가상 UI입니다. 실제 발표에서는 검증된 실행 캡처로 교체하고 원본 질문과 수치를 보존합니다. 화면이 좁으면 필요한 부분을 크롭합니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 64,
+          "y": 34,
+          "w": 900,
+          "h": 26,
+          "text": "SERVICE DESIGN  /  구성 예시",
+          "fontSize": 16,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 92,
+          "w": 1152,
+          "h": 60,
+          "text": "답변과 출처의 연결",
+          "fontSize": 42,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 160,
+          "w": 1152,
+          "h": 36,
+          "text": "화면을 크게 보여 주고, 발표자는 오른쪽 두 지점만 짚습니다.",
+          "fontSize": 22,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              214
+            ],
+            [
+              1216,
+              214
+            ]
+          ],
+          "stroke": "D6DFE9",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 672,
+          "w": 1000,
+          "h": 24,
+          "text": "가상 서비스의 디자인 예시입니다. 실제 구현·평가 결과가 아닙니다.",
+          "fontSize": 15,
+          "color": "586879",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "x": 1168,
+          "y": 672,
+          "w": 48,
+          "h": 24,
+          "text": "03",
+          "fontSize": 16,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "rect",
+          "x": 64,
+          "y": 248,
+          "w": 764,
+          "h": 390,
+          "fill": "EEF3F8",
+          "stroke": "EEF3F8",
+          "strokeWidth": 0
+        },
+        {
+          "type": "rect",
+          "x": 80,
+          "y": 264,
+          "w": 732,
+          "h": 44,
+          "fill": "182B43",
+          "stroke": "182B43",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 272,
+          "w": 680,
+          "h": 26,
+          "text": "화면 구성 예시  /  문서 검색",
+          "fontSize": 17,
+          "color": "FFFFFF",
+          "bold": true
+        },
+        {
+          "type": "rect",
+          "x": 100,
+          "y": 330,
+          "w": 692,
+          "h": 64,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 120,
+          "y": 346,
+          "w": 650,
+          "h": 34,
+          "text": "출장비를 신청하려면 무엇이 필요한가요?",
+          "fontSize": 24,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "rect",
+          "x": 100,
+          "y": 414,
+          "w": 692,
+          "h": 200,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 120,
+          "y": 430,
+          "w": 620,
+          "h": 30,
+          "text": "답변 초안",
+          "fontSize": 20,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 120,
+          "y": 472,
+          "w": 640,
+          "h": 66,
+          "text": "신청서와 지출 증빙을 준비합니다.\n세부 조건은 연결된 안내문에서 확인합니다.",
+          "fontSize": 24,
+          "color": "182B43",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              120,
+              550
+            ],
+            [
+              770,
+              550
+            ]
+          ],
+          "stroke": "D6DFE9",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 120,
+          "y": 568,
+          "w": 640,
+          "h": 29,
+          "text": "참고 문서  :  출장비 신청 안내",
+          "fontSize": 20,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 872,
+          "y": 272,
+          "w": 320,
+          "h": 32,
+          "text": "01  답변 핵심",
+          "fontSize": 24,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 872,
+          "y": 320,
+          "w": 320,
+          "h": 100,
+          "text": "해야 할 일을 먼저\n읽을 수 있도록 정리",
+          "fontSize": 28,
+          "color": "182B43",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              872,
+              442
+            ],
+            [
+              1216,
+              442
+            ]
+          ],
+          "stroke": "D6DFE9",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 872,
+          "y": 470,
+          "w": 320,
+          "h": 32,
+          "text": "02  원문 확인",
+          "fontSize": 24,
+          "color": "285DA0",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "x": 872,
+          "y": 518,
+          "w": 320,
+          "h": 100,
+          "text": "문서 이름을 누르면\n상세 조건을 확인",
+          "fontSize": 28,
+          "color": "182B43",
+          "bold": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "meta": {
+    "title": "Clean PPT 레이아웃 12종",
+    "author": "Clean PPT",
+    "subject": "가상 자료 기반 편집용 템플릿"
+  },
+  "slides": [
+    {
+      "title": "도입 판단",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "시험 결과와 미확인 항목을 확인한 뒤 적용 범위를 결정합니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 56,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "text": "도입 판단",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "시험 결과와 미확인 항목을 확인한 뒤 적용 범위를 결정합니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 232,
+          "w": 420,
+          "h": 366,
+          "fill": "F1F6F3",
+          "stroke": "F1F6F3",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 88,
+          "y": 268,
+          "w": 350,
+          "h": 44,
+          "text": "먼저 작은 시험",
+          "fontSize": 32,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "x": 88,
+          "y": 343,
+          "w": 350,
+          "h": 146,
+          "text": "공개 문서로 시작하고\n질문과 답변을\n함께 살펴봅니다.",
+          "fontSize": 28,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 534,
+          "y": 243,
+          "w": 670,
+          "h": 42,
+          "text": "시험 기록 확인",
+          "fontSize": 30,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 534,
+          "y": 307,
+          "w": 670,
+          "h": 85,
+          "text": "답하지 못한 질문과\n출처 확인이 어려운 답변을 정리합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              534,
+              423
+            ],
+            [
+              1224,
+              423
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 534,
+          "y": 457,
+          "w": 670,
+          "h": 42,
+          "text": "범위와 예산 검토",
+          "fontSize": 30,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 534,
+          "y": 521,
+          "w": 670,
+          "h": 85,
+          "text": "정확성, 응답시간, 비용을 확인한 후\n확대 여부를 결정합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
+          "bold": false,
+          "color": "526174"
+        }
+      ]
+    }
+  ]
+}

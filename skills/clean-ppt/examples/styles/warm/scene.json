@@ -1,0 +1,730 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "theme": {
+    "background": "FFFFFF",
+    "text": "202C3B",
+    "muted": "536172",
+    "accent": "79533C",
+    "line": "C7D0DA"
+  },
+  "meta": {
+    "title": "웜 리포트 스타일 예제",
+    "author": "Clean PPT",
+    "subject": "가상 기획 제안"
+  },
+  "slides": [
+    {
+      "title": "사내 문서 검색 제안",
+      "section": "웜 리포트",
+      "frame": false,
+      "notes": "사내 문서 검색 제안. 팀이 자주 묻는 질문에서 시작합니다. 제안 단계이므로 성과 수치로 설명하지 않습니다.",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 720,
+          "fill": "F5F1EA",
+          "stroke": "F5F1EA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 18,
+          "h": 720,
+          "fill": "79533C",
+          "stroke": "79533C",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 30,
+          "w": 800,
+          "h": 28,
+          "text": "CLEAN PPT   /   웜 리포트",
+          "fontSize": 16,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 80,
+          "w": 1152,
+          "h": 66,
+          "text": "사내 문서 검색 제안",
+          "fontSize": 44,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 162,
+          "w": 1152,
+          "h": 56,
+          "text": "팀이 자주 묻는 질문에서 시작합니다.",
+          "fontSize": 23,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "rect",
+          "x": 64,
+          "y": 244,
+          "w": 684,
+          "h": 359,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 273,
+          "w": 615,
+          "h": 48,
+          "text": "반복 질문의 다음 단계",
+          "fontSize": 36,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 356,
+          "w": 610,
+          "h": 118,
+          "text": "문서 탐색과 답변 초안을\n하나의 흐름으로 연결합니다.",
+          "fontSize": 35,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 518,
+          "w": 600,
+          "h": 58,
+          "text": "출처 확인과 최종 판단은 담당자가 맡습니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 259,
+          "w": 390,
+          "h": 40,
+          "text": "작은 시험의 범위",
+          "fontSize": 28,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              808,
+              315
+            ],
+            [
+              1216,
+              315
+            ]
+          ],
+          "stroke": "CFC4B6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 329,
+          "w": 390,
+          "h": 50,
+          "text": "30개 안내문",
+          "fontSize": 31,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 385,
+          "w": 390,
+          "h": 38,
+          "text": "공개 사내 문서 정리",
+          "fontSize": 22,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              808,
+              451
+            ],
+            [
+              1216,
+              451
+            ]
+          ],
+          "stroke": "CFC4B6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 465,
+          "w": 390,
+          "h": 50,
+          "text": "3명 · 2주",
+          "fontSize": 31,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 521,
+          "w": 390,
+          "h": 38,
+          "text": "사용 질문과 미응답 기록",
+          "fontSize": 22,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              662
+            ],
+            [
+              1216,
+              662
+            ]
+          ],
+          "stroke": "C7D0DA",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 681,
+          "w": 900,
+          "h": 21,
+          "text": "사내 문서 검색 제안  /  가상 기획 예제 · 실측 결과 아님",
+          "fontSize": 13,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 680,
+          "w": 76,
+          "h": 24,
+          "text": "01 / 03",
+          "fontSize": 15,
+          "bold": false,
+          "color": "536172"
+        }
+      ]
+    },
+    {
+      "title": "도움을 줄 업무와 남길 판단",
+      "section": "웜 리포트",
+      "frame": false,
+      "notes": "도움을 줄 업무와 남길 판단. 자동화 범위를 넓히기 전에 책임을 구분합니다. 제안 단계이므로 성과 수치로 설명하지 않습니다.",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 720,
+          "fill": "F5F1EA",
+          "stroke": "F5F1EA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 30,
+          "w": 800,
+          "h": 28,
+          "text": "CLEAN PPT   /   웜 리포트",
+          "fontSize": 16,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 80,
+          "w": 1152,
+          "h": 66,
+          "text": "도움을 줄 업무와 남길 판단",
+          "fontSize": 44,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 162,
+          "w": 1152,
+          "h": 56,
+          "text": "자동화 범위를 넓히기 전에 책임을 구분합니다.",
+          "fontSize": 23,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 251,
+          "w": 510,
+          "h": 43,
+          "text": "도움을 줄 업무",
+          "fontSize": 31,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 674,
+          "y": 251,
+          "w": 520,
+          "h": 43,
+          "text": "담당자가 할 일",
+          "fontSize": 31,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "rect",
+          "x": 64,
+          "y": 320,
+          "w": 530,
+          "h": 94,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 88,
+          "y": 346,
+          "w": 480,
+          "h": 48,
+          "text": "질문과 관련된 안내문 찾기",
+          "fontSize": 27,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "rect",
+          "x": 674,
+          "y": 320,
+          "w": 542,
+          "h": 94,
+          "fill": "E8DDD1",
+          "stroke": "E8DDD1",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 698,
+          "y": 346,
+          "w": 494,
+          "h": 48,
+          "text": "문서가 최신인지 확인하기",
+          "fontSize": 27,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "rect",
+          "x": 64,
+          "y": 436,
+          "w": 530,
+          "h": 94,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 88,
+          "y": 462,
+          "w": 480,
+          "h": 48,
+          "text": "출처와 답변 초안 함께 제시",
+          "fontSize": 27,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "rect",
+          "x": 674,
+          "y": 436,
+          "w": 542,
+          "h": 94,
+          "fill": "E8DDD1",
+          "stroke": "E8DDD1",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 698,
+          "y": 462,
+          "w": 494,
+          "h": 48,
+          "text": "내용과 근거가 맞는지 검토하기",
+          "fontSize": 27,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 579,
+          "w": 1152,
+          "h": 42,
+          "text": "권한 문서와 자동 의사결정은 초기 시험에서 제외합니다.",
+          "fontSize": 25,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              662
+            ],
+            [
+              1216,
+              662
+            ]
+          ],
+          "stroke": "C7D0DA",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 681,
+          "w": 900,
+          "h": 21,
+          "text": "사내 문서 검색 제안  /  가상 기획 예제 · 실측 결과 아님",
+          "fontSize": 13,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 680,
+          "w": 76,
+          "h": 24,
+          "text": "02 / 03",
+          "fontSize": 15,
+          "bold": false,
+          "color": "536172"
+        }
+      ]
+    },
+    {
+      "title": "시험과 후속 검토",
+      "section": "웜 리포트",
+      "frame": false,
+      "notes": "시험과 후속 검토. 측정값을 미리 정하지 않고, 관찰할 질문을 정합니다. 제안 단계이므로 성과 수치로 설명하지 않습니다.",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 720,
+          "fill": "F5F1EA",
+          "stroke": "F5F1EA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 30,
+          "w": 800,
+          "h": 28,
+          "text": "CLEAN PPT   /   웜 리포트",
+          "fontSize": 16,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 80,
+          "w": 1152,
+          "h": 66,
+          "text": "시험과 후속 검토",
+          "fontSize": 44,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 162,
+          "w": 1152,
+          "h": 56,
+          "text": "측정값을 미리 정하지 않고, 관찰할 질문을 정합니다.",
+          "fontSize": 23,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              98,
+              278
+            ],
+            [
+              98,
+              432
+            ]
+          ],
+          "stroke": "B6A493",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              500
+            ],
+            [
+              1216,
+              500
+            ]
+          ],
+          "stroke": "B6A493",
+          "strokeWidth": 2
+        },
+        {
+          "type": "rect",
+          "x": 76,
+          "y": 251,
+          "w": 44,
+          "h": 44,
+          "fill": "79533C",
+          "stroke": "79533C",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 86,
+          "y": 258,
+          "w": 30,
+          "h": 30,
+          "text": "1",
+          "fontSize": 22,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 251,
+          "w": 250,
+          "h": 42,
+          "text": "첫째 주",
+          "fontSize": 29,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 380,
+          "y": 251,
+          "w": 814,
+          "h": 43,
+          "text": "공개 안내문 30개 정리 · 계획",
+          "fontSize": 28,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 380,
+          "y": 304,
+          "w": 814,
+          "h": 42,
+          "text": "최신본과 공개 범위를 확인합니다.",
+          "fontSize": 24,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "rect",
+          "x": 76,
+          "y": 388,
+          "w": 44,
+          "h": 44,
+          "fill": "79533C",
+          "stroke": "79533C",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 86,
+          "y": 395,
+          "w": 30,
+          "h": 30,
+          "text": "2",
+          "fontSize": 22,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 388,
+          "w": 250,
+          "h": 42,
+          "text": "둘째 주",
+          "fontSize": 29,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 380,
+          "y": 388,
+          "w": 814,
+          "h": 43,
+          "text": "직원 3명과 질문 시험 · 계획",
+          "fontSize": 28,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 380,
+          "y": 441,
+          "w": 814,
+          "h": 42,
+          "text": "답변과 출처를 함께 살펴봅니다.",
+          "fontSize": 24,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "rect",
+          "x": 76,
+          "y": 525,
+          "w": 44,
+          "h": 44,
+          "fill": "79533C",
+          "stroke": "79533C",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 86,
+          "y": 532,
+          "w": 30,
+          "h": 30,
+          "text": "3",
+          "fontSize": 22,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 525,
+          "w": 250,
+          "h": 42,
+          "text": "시험 이후",
+          "fontSize": 29,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 380,
+          "y": 525,
+          "w": 814,
+          "h": 43,
+          "text": "답하지 못한 질문 보완",
+          "fontSize": 28,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 380,
+          "y": 578,
+          "w": 814,
+          "h": 42,
+          "text": "정확성, 응답시간과 비용은 별도 확인합니다.",
+          "fontSize": 24,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              662
+            ],
+            [
+              1216,
+              662
+            ]
+          ],
+          "stroke": "C7D0DA",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 681,
+          "w": 900,
+          "h": 21,
+          "text": "사내 문서 검색 제안  /  가상 기획 예제 · 실측 결과 아님",
+          "fontSize": 13,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 680,
+          "w": 76,
+          "h": 24,
+          "text": "03 / 03",
+          "fontSize": 15,
+          "bold": false,
+          "color": "536172"
+        }
+      ]
+    }
+  ]
+}

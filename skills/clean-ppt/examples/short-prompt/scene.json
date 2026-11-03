@@ -1,0 +1,693 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "theme": {
+    "background": "FFFFFF",
+    "text": "202C3B",
+    "muted": "536172",
+    "accent": "79533C",
+    "line": "C7D0DA"
+  },
+  "meta": {
+    "title": "회의록 작성 방식 회고",
+    "author": "Clean PPT",
+    "subject": "짧은 요청 제작 시험"
+  },
+  "slides": [
+    {
+      "title": "회의록 작성 방식 회고",
+      "section": "팀 회고",
+      "frame": false,
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 720,
+          "fill": "F5F1EA",
+          "stroke": "F5F1EA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 30,
+          "w": 900,
+          "h": 28,
+          "text": "팀 회고  /  회의록 작성",
+          "fontSize": 16,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 80,
+          "w": 1152,
+          "h": 66,
+          "text": "회의록 작성 방식 회고",
+          "fontSize": 44,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 162,
+          "w": 1152,
+          "h": 56,
+          "text": "중복 작성 문제와 공유 양식 제안을 함께 살펴봅니다.",
+          "fontSize": 23,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              662
+            ],
+            [
+              1216,
+              662
+            ]
+          ],
+          "stroke": "CFC4B6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 681,
+          "w": 900,
+          "h": 21,
+          "text": "공유 양식 제안  /  실행 전",
+          "fontSize": 13,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 680,
+          "w": 76,
+          "h": 24,
+          "text": "01 / 03",
+          "fontSize": 15,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "rect",
+          "x": 64,
+          "y": 244,
+          "w": 684,
+          "h": 359,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 273,
+          "w": 610,
+          "h": 48,
+          "text": "회고에서 확인한 문제",
+          "fontSize": 30,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 354,
+          "w": 610,
+          "h": 112,
+          "text": "회의록 작성이\n중복되고 있습니다.",
+          "fontSize": 42,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 524,
+          "w": 610,
+          "h": 42,
+          "text": "개선 제안: 공유 양식 사용",
+          "fontSize": 26,
+          "bold": false,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 260,
+          "w": 390,
+          "h": 44,
+          "text": "현재 상태",
+          "fontSize": 28,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              808,
+              318
+            ],
+            [
+              1216,
+              318
+            ]
+          ],
+          "stroke": "CFC4B6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 340,
+          "w": 390,
+          "h": 48,
+          "text": "실행 전",
+          "fontSize": 34,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 397,
+          "w": 390,
+          "h": 38,
+          "text": "제안 단계입니다.",
+          "fontSize": 24,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              808,
+              462
+            ],
+            [
+              1216,
+              462
+            ]
+          ],
+          "stroke": "CFC4B6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 484,
+          "w": 390,
+          "h": 48,
+          "text": "실측 없음",
+          "fontSize": 34,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 808,
+          "y": 541,
+          "w": 390,
+          "h": 38,
+          "text": "개선 효과는 아직 모릅니다.",
+          "fontSize": 24,
+          "bold": false,
+          "color": "536172"
+        }
+      ],
+      "notes": "약 1분 15초. 이번 회고에서 다룰 문제는 회의록 작성이 중복된다는 점입니다. 개선 방향으로 공유 양식을 제안하고 있습니다. 아직 실행하지 않았기 때문에 작성 시간이 줄었다거나 중복이 해소됐다고 말할 수는 없습니다. 먼저 현재 문제와 제안을 구분해서 설명하겠습니다. 중복이 발생한 구체적인 이유는 제공된 자료에 없어 단정하지 않습니다."
+    },
+    {
+      "title": "공유 양식 제안",
+      "section": "팀 회고",
+      "frame": false,
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 720,
+          "fill": "F5F1EA",
+          "stroke": "F5F1EA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 30,
+          "w": 900,
+          "h": 28,
+          "text": "팀 회고  /  회의록 작성",
+          "fontSize": 16,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 80,
+          "w": 1152,
+          "h": 66,
+          "text": "공유 양식 제안",
+          "fontSize": 44,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 162,
+          "w": 1152,
+          "h": 56,
+          "text": "현재 문제와 제안한 변화를 구분합니다.",
+          "fontSize": 23,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              662
+            ],
+            [
+              1216,
+              662
+            ]
+          ],
+          "stroke": "CFC4B6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 681,
+          "w": 900,
+          "h": 21,
+          "text": "공유 양식 제안  /  실행 전",
+          "fontSize": 13,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 680,
+          "w": 76,
+          "h": 24,
+          "text": "02 / 03",
+          "fontSize": 15,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 250,
+          "w": 520,
+          "h": 44,
+          "text": "현재",
+          "fontSize": 30,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 674,
+          "y": 250,
+          "w": 520,
+          "h": 44,
+          "text": "제안",
+          "fontSize": 30,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              312
+            ],
+            [
+              606,
+              312
+            ]
+          ],
+          "stroke": "CFC4B6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              674,
+              312
+            ],
+            [
+              1216,
+              312
+            ]
+          ],
+          "stroke": "CFC4B6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "rect",
+          "x": 64,
+          "y": 338,
+          "w": 542,
+          "h": 190,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "rect",
+          "x": 674,
+          "y": 338,
+          "w": 542,
+          "h": 190,
+          "fill": "FFFFFF",
+          "stroke": "FFFFFF",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 94,
+          "y": 373,
+          "w": 482,
+          "h": 90,
+          "text": "회의록 작성\n중복",
+          "fontSize": 36,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 704,
+          "y": 373,
+          "w": 482,
+          "h": 90,
+          "text": "공유 양식\n사용",
+          "fontSize": 36,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 571,
+          "w": 1152,
+          "h": 54,
+          "text": "양식 도입만으로 중복이 해결되는지는 적용 후 확인해야 합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "202C3B"
+        }
+      ],
+      "notes": "약 2분. 왼쪽은 현재 확인한 문제이고 오른쪽은 제안입니다. 지금 확인한 사실은 회의록 작성의 중복입니다. 이를 바꾸기 위해 공유 양식을 사용하자는 의견을 제안합니다. 공유 양식의 구체적인 항목이나 운영 방식은 아직 자료에 정해져 있지 않습니다. 따라서 이 화면의 오른쪽은 개선 완료 상태가 아닙니다. 양식을 사용하는 것만으로 문제가 해결될지도 아직 알 수 없습니다. 발표에서는 제안 취지까지 설명하고, 구체적인 사용 방법은 다음 화면의 논의 사항으로 넘깁니다. 필요하다면 팀이 생각하는 중복 작성 사례를 듣되, 자료에 없는 사례를 이미 있었던 일처럼 말하지 않습니다."
+    },
+    {
+      "title": "적용 전 논의 사항",
+      "section": "팀 회고",
+      "frame": false,
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 720,
+          "fill": "F5F1EA",
+          "stroke": "F5F1EA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 30,
+          "w": 900,
+          "h": 28,
+          "text": "팀 회고  /  회의록 작성",
+          "fontSize": 16,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 80,
+          "w": 1152,
+          "h": 66,
+          "text": "적용 전 논의 사항",
+          "fontSize": 44,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 162,
+          "w": 1152,
+          "h": 56,
+          "text": "다음 항목은 확정된 계획이 아닌 논의 제안입니다.",
+          "fontSize": 23,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              64,
+              662
+            ],
+            [
+              1216,
+              662
+            ]
+          ],
+          "stroke": "CFC4B6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 681,
+          "w": 900,
+          "h": 21,
+          "text": "공유 양식 제안  /  실행 전",
+          "fontSize": 13,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 680,
+          "w": 76,
+          "h": 24,
+          "text": "03 / 03",
+          "fontSize": 15,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              98,
+              276
+            ],
+            [
+              98,
+              550
+            ]
+          ],
+          "stroke": "CFC4B6",
+          "strokeWidth": 2
+        },
+        {
+          "type": "rect",
+          "x": 76,
+          "y": 250,
+          "w": 44,
+          "h": 44,
+          "fill": "79533C",
+          "stroke": "79533C",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 87,
+          "y": 257,
+          "w": 28,
+          "h": 30,
+          "text": "1",
+          "fontSize": 22,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 250,
+          "w": 250,
+          "h": 45,
+          "text": "양식 구성",
+          "fontSize": 29,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 450,
+          "y": 250,
+          "w": 744,
+          "h": 46,
+          "text": "어떤 항목을 함께 기록할까요?",
+          "fontSize": 28,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 450,
+          "y": 305,
+          "w": 744,
+          "h": 42,
+          "text": "공유 양식에 담을 내용을 논의합니다.",
+          "fontSize": 24,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "rect",
+          "x": 76,
+          "y": 387,
+          "w": 44,
+          "h": 44,
+          "fill": "79533C",
+          "stroke": "79533C",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 87,
+          "y": 394,
+          "w": 28,
+          "h": 30,
+          "text": "2",
+          "fontSize": 22,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 387,
+          "w": 250,
+          "h": 45,
+          "text": "사용 방법",
+          "fontSize": 29,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 450,
+          "y": 387,
+          "w": 744,
+          "h": 46,
+          "text": "어떻게 함께 사용할까요?",
+          "fontSize": 28,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 450,
+          "y": 442,
+          "w": 744,
+          "h": 42,
+          "text": "양식을 사용하는 방법을 논의합니다.",
+          "fontSize": 24,
+          "bold": false,
+          "color": "536172"
+        },
+        {
+          "type": "rect",
+          "x": 76,
+          "y": 524,
+          "w": 44,
+          "h": 44,
+          "fill": "79533C",
+          "stroke": "79533C",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 87,
+          "y": 531,
+          "w": 28,
+          "h": 30,
+          "text": "3",
+          "fontSize": 22,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 524,
+          "w": 250,
+          "h": 45,
+          "text": "적용 후 확인",
+          "fontSize": 29,
+          "bold": true,
+          "color": "79533C"
+        },
+        {
+          "type": "text",
+          "x": 450,
+          "y": 524,
+          "w": 744,
+          "h": 46,
+          "text": "중복 작성이 줄었는지 볼까요?",
+          "fontSize": 28,
+          "bold": true,
+          "color": "202C3B"
+        },
+        {
+          "type": "text",
+          "x": 450,
+          "y": 579,
+          "w": 744,
+          "h": 42,
+          "text": "효과 확인 방법을 논의합니다.",
+          "fontSize": 24,
+          "bold": false,
+          "color": "536172"
+        }
+      ],
+      "notes": "약 1분 45초. 이 세 항목은 확정된 실행 계획이 아니라 발표를 마무리하며 제안할 논의 사항입니다. 먼저 공유 양식에 무엇을 기록할지 정해야 합니다. 다음으로 그 양식을 어떻게 함께 사용할지 이야기해야 합니다. 마지막으로 적용 후 중복 작성이 실제로 줄었는지 어떻게 확인할지 논의하면 좋겠습니다. 현재 자료에는 담당자나 일정, 측정 결과가 없습니다. 오늘 발표의 결론은 개선 효과가 검증됐다는 것이 아니라 공유 양식 제안을 구체화할 필요가 있다는 점입니다. 남은 시간은 이 논의 항목에 대한 의견을 듣는 데 사용할 수 있습니다."
+    }
+  ]
+}

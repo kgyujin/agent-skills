@@ -1,0 +1,33 @@
+/*
+ * 스타일: soft — 둥근 모서리·연한 면·부드러운 굵기. 교육·온보딩·서비스 소개용.
+ * 표지: 연한 포인트 면(장식 없음) / 제목: 굵기로만 구분 / 카드: 연한 배경
+ * 색은 토큰만 쓴다. 변경사항 내역: 2026-09-17 | 최초 작성
+ */
+html[data-style="soft"] {
+  --font-head: var(--font-sans);
+  --head-weight: 700;
+  --head-tracking: -0.02em;
+  --label-transform: none;
+  --label-tracking: 0.02em;
+  --radius: 14pt;
+}
+html[data-style="soft"] th { background: var(--surface-2); color: var(--ink); }
+html[data-style="soft"] th:first-child { border-radius: 8pt 0 0 8pt; }
+html[data-style="soft"] th:last-child { border-radius: 0 8pt 8pt 0; }
+html[data-style="soft"] td { border-bottom-style: dotted; }
+html[data-style="soft"] .kpi { border-top: 0.75pt solid var(--line); }
+html[data-style="soft"] .card { border: 0; background: var(--surface-2); }
+html[data-style="soft"] .card.soft { background: var(--accent-soft); }
+html[data-style="soft"] .callout { border-radius: var(--radius); }
+
+html[data-style="soft"] :is(.cover, .slide.hero) { background: var(--accent-soft); }
+html[data-style="soft"] .cover-foot { border-top: 0; background: var(--surface); border-radius: var(--radius); padding: var(--sp-3) var(--sp-4); }
+html[data-style="soft"] .side { background: var(--accent-soft); }
+
+html[data-style="soft"] .l-steps .steps > li { border-top: 0; background: var(--surface-2); border-radius: var(--radius); padding: 4mm; }
+html[data-style="soft"] .l-steps .steps.vertical > li { padding-left: 14mm; }
+html[data-style="soft"] .l-steps .steps.vertical > li::before { left: 4mm; }
+html[data-style="soft"] .equation { background: var(--surface-2); border: 0; border-radius: var(--radius); }
+html[data-style="soft"] .l-compare .col { background: var(--surface-2); border-radius: var(--radius); padding: 5mm; }
+html[data-style="soft"] .l-compare .col.pick { outline: 1.5pt solid var(--ink); outline-offset: -1.5pt; }
+html[data-style="soft"] .l-compare .col > h3 { border-bottom: 0; }

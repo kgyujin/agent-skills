@@ -1,0 +1,255 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "meta": {
+    "title": "Clean PPT 레이아웃 12종",
+    "author": "Clean PPT",
+    "subject": "가상 자료 기반 편집용 템플릿"
+  },
+  "slides": [
+    {
+      "title": "검수 결과의 분기",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "통과 경로와 수정 경로를 분리해 읽는 흐름도 예시입니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 56,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "text": "검수 결과의 분기",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "통과 경로와 수정 경로를 분리해 읽는 흐름도 예시입니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 300,
+          "w": 250,
+          "h": 100,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 82,
+          "y": 331,
+          "w": 210,
+          "h": 45,
+          "text": "답변 검수",
+          "fontSize": 30,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              306,
+              350
+            ],
+            [
+              430,
+              350
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "rect",
+          "x": 440,
+          "y": 245,
+          "w": 300,
+          "h": 170,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 468,
+          "y": 275,
+          "w": 250,
+          "h": 44,
+          "text": "조건 충족 여부",
+          "fontSize": 29,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 468,
+          "y": 338,
+          "w": 250,
+          "h": 45,
+          "text": "수치와 근거 확인",
+          "fontSize": 23,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              740,
+              282
+            ],
+            [
+              910,
+              282
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 239,
+          "w": 120,
+          "h": 33,
+          "text": "통과",
+          "fontSize": 21,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "rect",
+          "x": 920,
+          "y": 232,
+          "w": 304,
+          "h": 100,
+          "fill": "2459A6",
+          "stroke": "2459A6",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 948,
+          "y": 261,
+          "w": 252,
+          "h": 45,
+          "text": "답변 제공",
+          "fontSize": 30,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              740,
+              382
+            ],
+            [
+              910,
+              382
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 391,
+          "w": 120,
+          "h": 33,
+          "text": "미충족",
+          "fontSize": 21,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "rect",
+          "x": 920,
+          "y": 350,
+          "w": 304,
+          "h": 100,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 948,
+          "y": 379,
+          "w": 252,
+          "h": 45,
+          "text": "한 번 수정",
+          "fontSize": 30,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 440,
+          "y": 513,
+          "w": 784,
+          "h": 86,
+          "text": "수정 후에도 조건을 충족하지 못하면\n확인 가능한 사실만 안내합니다.",
+          "fontSize": 27,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
+          "bold": false,
+          "color": "526174"
+        }
+      ]
+    }
+  ]
+}

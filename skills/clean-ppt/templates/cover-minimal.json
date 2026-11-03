@@ -1,0 +1,84 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "theme": {
+    "background": "FFFFFF",
+    "text": "222831",
+    "muted": "606873",
+    "accent": "2459A6",
+    "line": "C5C9CE"
+  },
+  "meta": {
+    "title": "기본 표지",
+    "author": "Clean PPT"
+  },
+  "slides": [
+    {
+      "title": "사내 문서 검색 서비스 제안",
+      "frame": false,
+      "notes": "표지는 제목과 부제, 발표자 정보만 배치합니다. 입력 자료의 정확한 이름과 소속으로 바꾸세요. 본문 목차와 성과는 표지에 덧붙이지 않습니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 64,
+          "y": 58,
+          "w": 1152,
+          "h": 34,
+          "text": "서비스 개선 제안",
+          "fontSize": 22,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 64,
+          "y": 218,
+          "w": 1152,
+          "h": 190,
+          "text": "사내 문서 검색\n서비스 제안",
+          "fontSize": 76,
+          "bold": true,
+          "color": "222831"
+        },
+        {
+          "type": "text",
+          "x": 68,
+          "y": 451,
+          "w": 1100,
+          "h": 52,
+          "text": "공개 안내문을 활용한 답변 초안",
+          "fontSize": 32,
+          "bold": false,
+          "color": "606873"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              68,
+              560
+            ],
+            [
+              1216,
+              560
+            ]
+          ],
+          "stroke": "C5C9CE",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 68,
+          "y": 602,
+          "w": 1100,
+          "h": 38,
+          "text": "발표자 이름  /  소속",
+          "fontSize": 24,
+          "bold": true,
+          "color": "222831"
+        }
+      ]
+    }
+  ]
+}

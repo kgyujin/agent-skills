@@ -1,0 +1,6 @@
+interface:
+  display_name: "깔끔한 PPT 제작"
+  short_description: "V9처럼 정돈된 발표자료를 설계하고 PPTX와 PDF로 검수합니다."
+  default_prompt: "$clean-ppt를 사용해 참고자료와 목적에 맞는 깔끔한 발표용 PPTX를 만들고 실제 렌더로 확인해 주세요."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,170 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "meta": {
+    "title": "Clean PPT 레이아웃 12종",
+    "author": "Clean PPT",
+    "subject": "가상 자료 기반 편집용 템플릿"
+  },
+  "slides": [
+    {
+      "title": "코드와 동작의 연결",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "짧은 코드와 설명을 나란히 두는 발표용 예시입니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 56,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "text": "코드와 동작의 연결",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "짧은 코드와 설명을 나란히 두는 발표용 예시입니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 236,
+          "w": 630,
+          "h": 352,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 82,
+          "y": 260,
+          "w": 580,
+          "h": 38,
+          "text": "조건 검사 예시 · Python",
+          "fontSize": 20,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 82,
+          "y": 332,
+          "w": 580,
+          "h": 210,
+          "text": "if validation_errors:\n    return request_revision()\n\nreturn deliver_answer()",
+          "fontSize": 26,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 744,
+          "y": 252,
+          "w": 460,
+          "h": 40,
+          "text": "01  오류 확인",
+          "fontSize": 28,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 744,
+          "y": 308,
+          "w": 460,
+          "h": 75,
+          "text": "검사에서 발견한 오류가\n있는지 확인합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              744,
+              413
+            ],
+            [
+              1224,
+              413
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 744,
+          "y": 447,
+          "w": 460,
+          "h": 40,
+          "text": "02  다음 경로 선택",
+          "fontSize": 28,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 744,
+          "y": 503,
+          "w": 460,
+          "h": 75,
+          "text": "오류가 있으면 수정을 요청하고,\n없으면 답변을 제공합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
+          "bold": false,
+          "color": "526174"
+        }
+      ]
+    }
+  ]
+}

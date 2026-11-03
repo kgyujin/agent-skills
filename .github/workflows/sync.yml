@@ -1,0 +1,37 @@
+# 개별 스킬 저장소의 최신 내용을 skills/ 로 가져와 바뀐 것이 있으면 커밋한다.
+# 매일 한 번 돌고, Actions 탭에서 직접 실행할 수도 있다.
+name: 스킬 동기화
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # 매일 03:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 개별 저장소에서 가져오기
+        run: scripts/sync.sh
+
+      - name: 바뀐 것이 있으면 커밋
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "바뀐 것이 없습니다."
+            exit 0
+          fi
+          git config user.name "kgyujin"
+          git config user.email "k_gyujin@daum.net"
+          git add -A
+          git commit -m "chore: 개별 저장소의 스킬 변경 사항 동기화"
+          git push

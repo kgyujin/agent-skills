@@ -1,0 +1,5 @@
+interface:
+  display_name: "스킬 자동 선택"
+  short_description: "요청에 맞는 스킬을 자동 선택하고 필요한 여러 스킬을 조합합니다"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,181 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "meta": {
+    "title": "Clean PPT 레이아웃 12종",
+    "author": "Clean PPT",
+    "subject": "가상 자료 기반 편집용 템플릿"
+  },
+  "slides": [
+    {
+      "title": "다음 단계",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "다른 제품군에서도 같은 기록 방식이 맞는지 확인합니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 56,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "text": "다음 단계",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "다른 제품군에서도 같은 기록 방식이 맞는지 확인합니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 235,
+          "w": 360,
+          "h": 363,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 88,
+          "y": 263,
+          "w": 280,
+          "h": 40,
+          "text": "추가 시험 기간",
+          "fontSize": 24,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 88,
+          "y": 330,
+          "w": 250,
+          "h": 110,
+          "text": "1주",
+          "fontSize": 82,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 88,
+          "y": 472,
+          "w": 275,
+          "h": 85,
+          "text": "다른 제품군에\n적용해 봅니다.",
+          "fontSize": 27,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 470,
+          "y": 239,
+          "w": 720,
+          "h": 42,
+          "text": "01  같은 기준으로 기록",
+          "fontSize": 30,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 470,
+          "y": 304,
+          "w": 725,
+          "h": 83,
+          "text": "검수 시간과 입력 누락을\n같은 방식으로 확인합니다.",
+          "fontSize": 27,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              470,
+              420
+            ],
+            [
+              1224,
+              420
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 470,
+          "y": 454,
+          "w": 720,
+          "h": 42,
+          "text": "02  결과를 보고 적용 판단",
+          "fontSize": 30,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 470,
+          "y": 518,
+          "w": 725,
+          "h": 85,
+          "text": "담당자의 검수 부담과\n제품별 입력 차이를 함께 살펴봅니다.",
+          "fontSize": 27,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
+          "bold": false,
+          "color": "526174"
+        }
+      ]
+    }
+  ]
+}

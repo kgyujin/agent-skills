@@ -1,0 +1,42 @@
+[
+  {
+    "id": "editorial",
+    "name": "에디토리얼",
+    "structure": "큰 제목과 비대칭 열",
+    "purpose": "기획 의도와 변화 설명",
+    "scene": "examples/styles/editorial/scene.json",
+    "preview": "examples/styles/editorial/preview.png"
+  },
+  {
+    "id": "warm",
+    "name": "웜 리포트",
+    "structure": "따뜻한 바탕과 수직 순서",
+    "purpose": "교육, 팀 회고, 서비스 제안",
+    "scene": "examples/styles/warm/scene.json",
+    "preview": "examples/styles/warm/preview.png"
+  },
+  {
+    "id": "technical",
+    "name": "테크니컬",
+    "structure": "왼쪽 탐색 영역과 단계 도식",
+    "purpose": "기술 구조와 처리 경로",
+    "scene": "examples/styles/technical/scene.json",
+    "preview": "examples/styles/technical/preview.png"
+  },
+  {
+    "id": "executive",
+    "name": "디시전",
+    "structure": "요약 영역과 비교 매트릭스",
+    "purpose": "의사결정과 검토 회의",
+    "scene": "examples/styles/executive/scene.json",
+    "preview": "examples/styles/executive/preview.png"
+  },
+  {
+    "id": "studio",
+    "name": "스튜디오",
+    "structure": "큰 번호와 편집형 정보 블록",
+    "purpose": "제품 소개와 포트폴리오",
+    "scene": "examples/styles/studio/scene.json",
+    "preview": "examples/styles/studio/preview.png"
+  }
+]
